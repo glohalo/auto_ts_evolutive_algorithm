@@ -1,14 +1,4 @@
-### Explanation Forecasting metrics:
-
-1. **Validation Accuracy (SMAPE):**
-   - **Symmetric Mean Absolute Percentage Error (SMAPE)** is a metric used to measure the accuracy of a forecast. It is calculated as:
-     \[
-     \text{SMAPE} = \frac{100\%}{n} \sum_{t=1}^{n} \frac{|F_t - A_t|}{(|A_t| + |F_t|)/2}
-     \]
-     where \(F_t\) is the forecasted value and \(A_t\) is the actual value.
-
-2. **Prediction Interval Probability:**
-   - The **Prediction Interval** is a range within which future observations are expected to fall with a certain probability.
+### Implementation Details
 
 **Forecasting Details:**
 - **Forecast Length:** 60 periods
@@ -36,3 +26,5 @@ The genetic algorithm explores a wide range of models and evaluates them based o
 - **Scalability:** Suitable for various time series data applications
 
 Implementing AutoTS with these configurations helps us achieve accurate and reliable forecasts while minimizing computational time. The genetic algorithm ensures we explore a wide range of models to find the best fit for our data.
+
+Source: https://winedarksea.github.io/AutoTS/build/html/source/tutorial.html
